@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Accident Prediction</title>
+</head>
+<body>
+    <h1>Road Accident Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Age_band_of_driver">Age band of driver:</label>
+        <input type="text" id="Age_band_of_driver" name="Age_band_of_driver" required><br><br>
+        
+        <label for="Sex_of_driver">Sex of driver:</label>
+        <input type="text" id="Sex_of_driver" name="Sex_of_driver" required><br><br>
+        
+        <label for="Educational_level">Educational level:</label>
+        <input type="text" id="Educational_level" name="Educational_level" required><br><br>
+        
+        <label for="Vehicle_driver_relation">Vehicle driver relation:</label>
+        <input type="text" id="Vehicle_driver_relation" name="Vehicle_driver_relation" required><br><br>
+        
+        <label for="Driving_experience">Driving experience:</label>
+        <input type="text" id="Driving_experience" name="Driving_experience" required><br><br>
+        
+        <label for="Lanes_or_Medians">Lanes or medians:</label>
+        <input type="text" id="Lanes_or_Medians" name="Lanes_or_Medians" required><br><br>
+        
+        <label for="Types_of_Junction">Types of junction:</label>
+        <input type="text" id="Types_of_Junction" name="Types_of_Junction" required><br><br>
+        
+        <label for="Road_surface_type">Road surface type:</label>
+        <input type="text" id="Road_surface_type" name="Road_surface_type" required><br><br>
+        
+        <label for="Light_conditions">Light conditions:</label>
+        <input type="text" id="Light_conditions" name="Light_conditions" required><br><br>
+        
+        <label for="Weather_conditions">Weather conditions:</label>
+        <input type="text" id="Weather_conditions" name="Weather_conditions" required><br><br>
+        
+        <label for="Type_of_collision">Type of collision:</label>
+        <input type="text" id="Type_of_collision" name="Type_of_collision" required><br><br>
+        
+        <label for="Vehicle_movement">Vehicle movement:</label>
+        <input type="text" id="Vehicle_movement" name="Vehicle_movement" required><br><br>
+        
+        <label for="Pedestrian_movement">Pedestrian movement:</label>
+        <input type="text" id="Pedestrian_movement" name="Pedestrian_movement" required><br><br>
+        
+        <label for="Cause_of_accident">Cause of accident:</label>
+        <input type="text" id="Cause_of_accident" name="Cause_of_accident" required><br><br>
+        
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
